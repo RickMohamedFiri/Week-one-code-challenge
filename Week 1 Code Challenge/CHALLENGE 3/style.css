@@ -1,0 +1,79 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(130deg,   #f900dc, rgb(0, 0, 255));
+}
+.background{
+color: #fff;
+margin: 4rem 0;
+padding: 5rem 3rem;
+background: transparent;
+  text-align: center;
+  box-shadow: inset -9px -9px 12px #ffffff9d, inset 9px 9px 12px #000;
+  height: 22rem;
+  width: 25rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 1s;
+}
+
+.background:hover
+{
+  box-shadow: 0px 0px 30px#000;
+
+}
+
+.background>h1{
+  font-size: 2rem;
+}
+.app {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+.app input {
+  color: #fff;
+  background: #0000008e;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: .6rem 0.4em;
+  height: 1.5rem;
+  border-radius: .3rem;
+  border: none;
+  outline: none;
+}
+
+.app button {
+  margin-top: 1rem;
+  padding: .6rem .4rem;
+  background: transparent;
+  color: #fff;
+  width: 8rem;
+  text-align: center;
+  height: 3.4rem;
+  font-size: 1.1rem;
+  letter-spacing: .08rem;
+  border:2px solid  #000;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.app button:hover
+{
+  width: 10rem;
+  letter-spacing: .08rem;
+  background: #000;
+  color: rgb(195, 0, 255);
+  border:2px solid  #000;
+  letter-spacing: .2rem;
+  border-radius: .5rem;
+  transition: .5s;
+}
